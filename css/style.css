@@ -1,0 +1,268 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+}
+/*barra de navegacion*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #0372a5;
+    z-index: 9999;
+    border: 0;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Cutive Mono', monospace;
+    height: 65px;
+    padding: 5px;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ffe205 !important;
+    font-weight: bold;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.cultive-title {
+    padding-top: 8px;
+    padding-left: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+.post {
+    background-color: #b7b1b169;
+    overflow: hidden;
+    padding: 1.3em;
+}
+
+.imagen-responsive {
+    padding: 0.5em;
+}
+.post .content
+{
+    padding: 15px;
+}
+.post .author
+{
+    font-size: 11px;
+    color: #737373;
+    padding: 25px 30px 20px;
+}
+.post .post-img-content
+{
+    height: 196px;
+    position: relative;
+}
+.post .post-img-content img
+{
+    position: absolute;
+}
+.post .post-title
+{
+    display: table-cell;
+    vertical-align: bottom;
+    z-index: 2;
+    position: relative;
+}
+.post .post-title b
+{
+    background-color: rgba(51, 51, 51, 0.58);
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #FFF;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+
+.title-campaings {
+    line-height: 25px;
+    font-size: x-large;
+    font-weight: bold;
+}
+h1.hidden-xs.hidden-sm {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Cutive Mono', monospace;
+}
+p.text-justify {
+    color: aliceblue;
+    font-size: initial;
+    padding: 2em;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.bg-blue{
+  background-color: #0372a5;
+}
+.nav li:hover{
+  background-color: #1489bf;
+}
+
+#majdi {
+    padding: 1em;
+}
+.org {
+    font-family: 'Cutive Mono', monospace;
+    color: #ffffff;
+    font-size: 13px;
+}
+/*social*/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+li {
+    list-style: none;
+}
+.socialIcons {
+    font-size: 25px;
+    padding: inherit;
+}
+.facebook{
+    margin: 1em;
+    color: #2157f7;
+}
+.twitter{
+    margin: 1em;
+    color: #00bcf9;
+}
+.instagram{
+    margin: 1em;
+    color: grey
+}
+.youtube{
+    margin: 1em;
+    color: #ef0000;
+}
+.margen {
+    margin-top: 4em;
+}
+.margen a {
+    color: black;
+}
+.block {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.cultive {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 14px;
+    font-weight: 900;
+    color: black;
+}
+.cultiveh2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #0295e8;
+}
+.cultive-post {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+.cultive-about{
+  font-family: 'Cutive Mono', monospace;
+  font-size: 12px;
+  color: azure;
+}
+.cultivecopy {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 11px;
+    color: white;
+}
+.subtitle {
+    color: #fff;
+    background-color: #0295e8;
+    min-height: 100px;
+    padding: 10px;
+}
+.text-p {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 14px;
+    font-weight: 900;
+    color: #075da5;
+}
+.text-p-donate {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.transparent {
+    background-color: #f0ffff80;
+    text-align: center;
+    font-size: 16px;
+    padding: 1em;
+    font-weight: 900;
+    color: black;
+    margin: auto;
+    font-family: 'Cutive Mono', monospace;
+    margin: 1em;
+}
+.fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+.spacing {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.donate {
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.boton {
+    padding-top: 14em;
+}
+.footer {
+    background-color: #0071ab;
+}
+.copyright {
+    background-color: #2d2a2a;
+}
+.campaings {
+    background-color: #FFFFFF;
+}
+.newsletter {
+    background-color: #e2dfdf;
+}
+.follow {
+    background-color: #ffffff;
+}
+.form {
+    background-color: #b3b3b38f;
+    padding: 1.5em;
+}
+.form-contact {
+    background-image: url(../img/contact.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+}
+.form-donate {
+    background-image: url(../img/photo_2018-06-18_13-27-40.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+    padding-top: 8em;
+}
+
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+    background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+
